@@ -1,7 +1,7 @@
 {
   "main.css": "/tests/static/css/main.2ce9d540.chunk.css",
-  "main.js": "/tests/static/js/main.4fda3e8e.chunk.js",
-  "main.js.map": "/tests/static/js/main.4fda3e8e.chunk.js.map",
+  "main.js": "/tests/static/js/main.0412c032.chunk.js",
+  "main.js.map": "/tests/static/js/main.0412c032.chunk.js.map",
   "static/css/1.a9435d42.chunk.css": "/tests/static/css/1.a9435d42.chunk.css",
   "static/js/1.5fec1d1c.chunk.js": "/tests/static/js/1.5fec1d1c.chunk.js",
   "static/js/1.5fec1d1c.chunk.js.map": "/tests/static/js/1.5fec1d1c.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/media/car-marker.png": "/tests/static/media/car-marker.c37c7a43.png",
   "static/css/main.2ce9d540.chunk.css.map": "/tests/static/css/main.2ce9d540.chunk.css.map",
   "index.html": "/tests/index.html",
-  "precache-manifest.8ca0ec3e345e1bc35a3d44498614212d.js": "/tests/precache-manifest.8ca0ec3e345e1bc35a3d44498614212d.js",
+  "precache-manifest.33b4f84c44b2a0c2eb85d15e96bf0bdb.js": "/tests/precache-manifest.33b4f84c44b2a0c2eb85d15e96bf0bdb.js",
   "service-worker.js": "/tests/service-worker.js"
 }
