@@ -1,18 +1,24 @@
-FROM node:6.9
+# Pull nginx base image
+FROM nginx:latest
 
 # Create app directory
-RUN mkdir -p /pulic
-WORKDIR /pulic
- 
-
-# Install app dependencies
-COPY package.json /src/app/
+RUN mkdir -p /www
+WORKDIR /www 
  
 
 # Bundle app source
-COPY . /pulic
+COPY . /www
 
+# Expost port 80
+EXPOSE 80
+
+# Copy custom configuration file from the current directory
+COPY nginx.conf /etc/nginx/nginx.conf
  
 
-EXPOSE 8080
+# Start up nginx server
+CMD ["nginx"]
+
+
+ 
  
