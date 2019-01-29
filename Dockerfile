@@ -4,7 +4,6 @@ FROM nginx:latest
 # Create app directory
 RUN mkdir -p /www
 WORKDIR /www 
- 
 
 # Bundle app source
 COPY . /www
