@@ -9,7 +9,7 @@ WORKDIR /www
 COPY . /www
 
 # Log list
-Run ls
+RUN ls
 
 # Expost port 80
 EXPOSE 80
