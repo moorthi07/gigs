@@ -8,7 +8,7 @@ WORKDIR /www
 # Bundle app source
 COPY . /www
 
-#Log list
+# Log list
 Run ls
 
 # Expost port 80
