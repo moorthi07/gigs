@@ -1,15 +1,15 @@
 # Pull nginx base image
 FROM nginx:latest
 
-WORKDIR /var 
+WORKDIR /usr/share/nginx/html/
 RUN ls
 # Create app directory
 #RUN mkdir -p /www
-WORKDIR /var/www/html 
+#WORKDIR /var/www/html 
 
 # Bundle app source
 # COPY . /www
-COPY . /var/www/html
+COPY . /usr/share/nginx/html/
 
 # Log list
 RUN ls
