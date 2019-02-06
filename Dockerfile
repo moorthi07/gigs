@@ -7,9 +7,11 @@ WORKDIR /www
 
 # Bundle app source
 # COPY . /www
-COPY . /www
+COPY index.html /www
 
 # Log list
+RUN ls
+WORKDIR /www/html
 RUN ls
 
 # Expost port 80
