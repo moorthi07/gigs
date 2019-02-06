@@ -7,7 +7,7 @@ WORKDIR /www
 
 # Bundle app source
 # COPY . /www
-COPY . /usr/share/nginx/html
+COPY . /www
 
 # Log list
 RUN ls
