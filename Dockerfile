@@ -1,8 +1,10 @@
 # Pull nginx base image
 FROM nginx:latest
 
+WORKDIR /var 
+RUN ls
 # Create app directory
-RUN mkdir -p /www
+#RUN mkdir -p /www
 WORKDIR /var/www/html 
 
 # Bundle app source
