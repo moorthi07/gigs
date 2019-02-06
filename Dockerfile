@@ -3,16 +3,15 @@ FROM nginx:latest
 
 # Create app directory
 RUN mkdir -p /www
-WORKDIR /www 
+WORKDIR /var/www/html 
 
 # Bundle app source
 # COPY . /www
-COPY index.html /www
+COPY . /var/www/html
 
 # Log list
 RUN ls
-WORKDIR /www/html
-RUN ls
+ 
 
 # Expost port 80
 # EXPOSE 80
