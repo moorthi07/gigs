@@ -1,3 +1,3 @@
 ***`mars tracker`
 
-image:: marsgeotracker.jpg
+image:: https://github.com/moorthi07/gigs/blob/master/marstracker/marsgeotracker.jpg
