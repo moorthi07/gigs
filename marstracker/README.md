@@ -1,3 +1,3 @@
 ###mars tracker
 
-![Screen shot] (./marsgeotracker.jpg)
+![Screen shot] (marsgeotracker.jpg)
