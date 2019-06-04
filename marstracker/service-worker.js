@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/gigs/marstracker/index.html/precache-manifest.a22754d5bc522c147b868dcb1ece229e.js"
+  "/gigs/marstracker/precache-manifest.f653e80dc1a5d496e3c0a92a54975f54.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/gigs/marstracker/index.html/index.html", {
+workbox.routing.registerNavigationRoute("/gigs/marstracker/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
